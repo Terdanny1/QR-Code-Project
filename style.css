@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+  position: relative;
+}
+.background {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 530px;
+  border-radius: 10px;
+  margin: auto;
+}
+#img-sec {
+  margin: auto;
+  width: 90%;
+  padding: 0.5rem;
+}
+#img-sec img {
+  width: 100%;
+  border-radius: 15px;
+}
+.text {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .background {
+    width: 85%;
+    left: 30px;
+    height: 75vh;
+  }
+  .text {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  /* For tablets: */
+  .background {
+    width: 50%;
+    left: 320px;
+    height: 100vh;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
